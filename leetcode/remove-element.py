@@ -5,6 +5,7 @@ class Solution:
         return len(nums)
 
 
+# marginally faster runtime
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
         while 1:
@@ -15,6 +16,7 @@ class Solution:
         return len(nums)
 
 
+# another one
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
         i = 0
