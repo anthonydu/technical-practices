@@ -6,6 +6,16 @@
 #
 
 
+# Each integer in the matrix have 4 possible positions
+# CNRi - Corner, Eijx - Edge
+# CNR0 E00a E01a E01a E00a CNR0
+# E00b CNR1 E10a E10a CNR1 E00b
+# E01b E10b CNR2 CNR2 E10b E01b
+# E01b E10b CNR2 CNR2 E10b E01b
+# E00b CNR1 E10a E10a CNR1 E00b
+# CNR0 E00a E01a E01a E00a CNR0
+
+
 def flippingMatrix(matrix):
     sum = 0
     n = len(matrix)
