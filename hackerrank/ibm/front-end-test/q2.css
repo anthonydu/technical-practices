@@ -1,0 +1,44 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  flex: 1;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+  width: 100%;
+}
+.sidebar {
+  flex: 1;
+  height: 100%;
+}
+.article {
+  flex: 3;
+  height: 100%;
+}
+.footer {
+  flex: 1;
+  width: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+.aside-1,
+.aside-2,
+.aside-3 {
+  flex: 1;
+  width: 100%;
+}
